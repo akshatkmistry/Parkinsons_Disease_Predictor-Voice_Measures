@@ -67,7 +67,7 @@ def main():
     model, scaler = load_model_and_scaler()
     
     # Introduction section with description
-    st.title("Parkinson's Disease Detection")
+    st.title("Parkinson's Disease Detection System")
     
     
     # Model performance metrics
