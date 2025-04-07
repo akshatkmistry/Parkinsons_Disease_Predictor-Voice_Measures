@@ -233,5 +233,14 @@ def main():
     Please consult a healthcare professional for proper medical advice.
     """)
 
+    with st.expander("About This App"):
+        st.markdown("""
+            **Developed by:** Akshat Mistry & Aryika Patni  
+            **Dataset Used:** https://archive.ics.uci.edu/dataset/174/parkinsons  
+            **Machine Learning Algorithm:** Random Forest Classifier  
+            **Description:**  
+            This app leverages advanced machine learning techniques to analyze voice measurements of an individual and predict for Parkinson's Disease Possibility.
+        """)
+
 if __name__ == "__main__":
     main()
